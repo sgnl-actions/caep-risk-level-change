@@ -60,7 +60,7 @@ inputs:
     description: Entity that initiated the risk level change (admin, user, policy, system)
     required: false
     validation:
-      enum: ["admin", "user", "policy", "system"]
+      max: 100
 
   reason_admin:
     type: text
